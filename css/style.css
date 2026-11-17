@@ -1,5 +1,5 @@
 /* =========================================================
-   Jaga Tao — stylesheet
+   Jaga Tao: stylesheet
    Palet diambil dari tiga warna gorga Batak (merah, putih, hitam)
    dan dari lanskap Kaldera Toba (kabut, danau, pinus, batu tuf).
    ========================================================= */
@@ -201,7 +201,7 @@ a:hover { color: var(--gorga); }
 .tombol--kecil { padding: 0.5rem 1rem; font-size: var(--t-14); }
 
 /* =========================================================
-   HERO — panorama geser
+   HERO: panorama geser
    ========================================================= */
 .hero { position: relative; background: var(--danau); color: var(--putih); }
 .panorama {
@@ -472,7 +472,7 @@ a:hover { color: var(--gorga); }
 .sumber li { margin-bottom: 0.5rem; }
 
 /* =========================================================
-   JELAJAH — peta & galeri
+   JELAJAH: peta & galeri
    ========================================================= */
 .peta-wadah {
   display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 2rem;
@@ -626,7 +626,7 @@ dialog::backdrop { background: rgba(14, 26, 28, 0.82); }
 .kotak-aksi ul { margin: 0; padding-left: 1.1rem; font-size: var(--t-16); }
 
 /* =========================================================
-   AKSI — kalkulator, checklist, ikrar
+   AKSI: kalkulator, checklist, ikrar
    ========================================================= */
 .langkah-nav { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 2rem; }
 

@@ -1,4 +1,4 @@
-# Jaga Tao — Berwisata ke Danau Toba tanpa Meninggalkan Jejak
+# Jaga Tao: Berwisata ke Danau Toba tanpa Meninggalkan Jejak
 
 **Live website:** https://arjunamelix.github.io/SB-Batch1_ITDel_WebDesignTechnoversary_vol_II/  
 **Repository:** https://github.com/Arjunamelix/SB-Batch1_ITDel_WebDesignTechnoversary_vol_II
