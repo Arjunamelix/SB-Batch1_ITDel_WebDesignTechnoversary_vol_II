@@ -108,7 +108,7 @@
     b.type = "button";
     b.className = "g" + (i + 1);
     b.setAttribute("aria-label", "Perbesar ilustrasi: " + g.judul);
-    b.innerHTML = `<img src="${g.src}" alt="" loading="lazy" width="900" height="1100"><figcaption>${g.judul}</figcaption>`;
+    b.innerHTML = `<img src="${g.src}" alt="" loading="lazy" width="${g.w || 900}" height="${g.h || 1100}"><figcaption>${g.judul}</figcaption>`;
     b.addEventListener("click", () => buka(i));
     wadahGaleri.appendChild(b);
   });

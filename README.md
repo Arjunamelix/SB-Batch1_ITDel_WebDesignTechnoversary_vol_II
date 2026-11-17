@@ -18,15 +18,16 @@ Latar belakang: status UNESCO Global Geopark Kaldera Toba sempat mendapat kartu 
 |---|---|
 | **Beranda** (`index.html`) | Panorama interaktif *Dijaga vs Dibiarkan*: geser garis untuk membandingkan masa depan danau. Lini masa status geopark, simulasi *Danau ini mengikuti pilihanmu* (nyalakan empat kebiasaan dan lihat sampah, eceng gondok, asap, dan satwa berubah di ilustrasi), serta sorotan geosite. |
 | **Tentang** (`about.html`) | Misi Jaga Tao, diagram penampang kaldera (SVG), lima nilai istimewa Kaldera Toba, profil tim, dan sumber rujukan. |
-| **Jelajah** (`jelajah.html`) | Konten/galeri: peta geosite interaktif (filter Geologi/Hayati/Budaya, navigasi keyboard, tautan langsung `#id-geosite`) dengan tips menjaga di tiap lokasi, plus galeri ilustrasi dengan lightbox. |
-| **Cerita** (`cerita.html`) | Artikel: 6 artikel edukasi, pencarian, filter kategori, dan pembaca artikel dengan indikator progres. |
+| **Jelajah** (`jelajah.html`) | Konten/galeri: peta geosite interaktif (filter Geologi/Hayati/Budaya, navigasi keyboard, tautan langsung `#id-geosite`) dengan tips menjaga di tiap lokasi, plus galeri foto dengan lightbox. |
+| **Cerita** (`cerita.html`) | Artikel: 6 artikel edukasi dengan ilustrasi khusus per topik, pencarian, filter kategori, dan pembaca artikel dengan indikator progres. |
 | **Aksi** (`aksi.html`) | Kalkulator jejak karbon perjalanan, daftar kemas nol sampah (tersimpan di perangkat), dan generator kartu *Ikrar Wisatawan* (unduh PNG / bagikan). |
 | **Kontak** (`contact.html`) | Formulir kontak/lapor sampah dengan validasi, kolom lokasi dinamis, penghitung karakter, dan FAQ. |
 
 ### Teknologi
 
 - HTML5, CSS3, dan JavaScript murni, **tanpa framework, template, atau komponen berbayar**.
-- Semua ilustrasi (panorama, galeri, peta, ikon, logo) dibuat sendiri dalam format SVG.
+- Semua ilustrasi (panorama, simulasi, peta, ikon, logo, gambar artikel) dibuat sendiri dalam format SVG.
+- Foto di galeri halaman Jelajah dan sorotan beranda dikumpulkan dari internet untuk keperluan edukasi nonkomersial; hak cipta tetap milik fotografernya.
 - Font open-source (SIL OFL) dipasang lokal: *Anybody* dan *Newsreader*. Lisensinya ada di `assets/fonts/`.
 - Responsif dari ponsel hingga desktop, mendukung navigasi keyboard, *skip link*, fokus terlihat, dan `prefers-reduced-motion`.
 - Tanpa dependensi eksternal. Seluruh situs berjalan offline dan ukurannya sangat ringan.
@@ -70,7 +71,7 @@ SB-Batch1_ITDel_WebDesignTechnoversary_vol_II/
 │   ├── home.js  jelajah.js  cerita.js  aksi.js  kontak.js
 └── assets/
     ├── fonts/          Anybody & Newsreader (OFL)
-    └── img/            ilustrasi SVG buatan sendiri
+    └── img/            ilustrasi SVG buatan sendiri & foto galeri (WebP)
 ```
 
 ## Catatan data

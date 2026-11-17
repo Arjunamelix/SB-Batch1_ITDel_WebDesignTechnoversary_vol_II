@@ -131,12 +131,11 @@ JAGA.situs = [
 ];
 
 JAGA.galeri = [
-  { src: "assets/img/galeri-sipisopiso.svg", judul: "Sipisopiso", ket: "Air terjun yang jatuh dari bibir dinding kaldera, Karo." },
-  { src: "assets/img/galeri-tuktuk.svg", judul: "Pagi di Tuktuk", ket: "Matahari terbit di atas tanjung kecil di timur Samosir." },
-  { src: "assets/img/galeri-huta.svg", judul: "Huta dan rumah bolon", ket: "Deretan rumah adat Batak Toba dengan atap pelana dan ornamen gorga." },
-  { src: "assets/img/galeri-pusuk-buhit.svg", judul: "Pusuk Buhit", ket: "Gunung di barat danau yang diselimuti awan pagi." },
-  { src: "assets/img/galeri-bakkara.svg", judul: "Lembah Bakkara", ket: "Sawah bertingkat yang diapit dinding kaldera." },
-  { src: "assets/img/galeri-senja.svg", judul: "Solu di senja hari", ket: "Perahu kayu tradisional pulang ke dermaga." },
+  { src: "assets/img/foto-sipisopiso.webp", judul: "Sipisopiso–Tongging", ket: "Air terjun yang jatuh dari bibir dinding kaldera, Kabupaten Karo.", w: 1400, h: 935 },
+  { src: "assets/img/foto-tuktuk.webp", judul: "Semenanjung Tuktuk", ket: "Atap pelana bergaya Batak di tepi danau, dengan dinding kaldera di seberangnya.", w: 1200, h: 600 },
+  { src: "assets/img/foto-rumah-bolon.webp", judul: "Rumah bolon", ket: "Deretan rumah adat Batak Toba dengan atap pelana dan ukiran gorga.", w: 600, h: 400 },
+  { src: "assets/img/foto-kursi-batu.webp", judul: "Kursi batu di huta", ket: "Kursi batu di bawah pohon besar di tengah huta, Pulau Samosir.", w: 706, h: 579 },
+  { src: "assets/img/foto-pusuk-buhit.webp", judul: "Pusuk Buhit", ket: "Gunung di sisi barat danau yang dalam tradisi Batak dianggap asal-usul leluhur.", w: 1024, h: 683 },
 ];
 
 JAGA.artikel = [
@@ -145,7 +144,7 @@ JAGA.artikel = [
     kat: "Isu",
     judul: "Kartu kuning, kartu hijau: apa artinya bagi wisatawan?",
     ringkas: "Status UNESCO Global Geopark untuk Kaldera Toba pernah terancam. Ini ceritanya, dan peran kecil yang bisa diambil pengunjung.",
-    gambar: "assets/img/galeri-pusuk-buhit.svg",
+    gambar: "assets/img/artikel-kartu-hijau.svg",
     menit: 4,
     isi: `
 <p>Kaldera Toba ditetapkan sebagai UNESCO Global Geopark pada Juli 2020. Status ini bukan gelar seumur hidup. UNESCO menilai ulang setiap geopark secara berkala untuk memastikan kawasan itu benar-benar dikelola demi konservasi, edukasi, dan kesejahteraan warganya.</p>
@@ -165,7 +164,7 @@ JAGA.artikel = [
     kat: "Hayati",
     judul: "Eceng gondok: hijau di permukaan, masalah di bawahnya",
     ringkas: "Hamparan hijau di tepi danau terlihat indah di foto. Di bawahnya, air kehilangan cahaya dan oksigen.",
-    gambar: "assets/img/hero-dibiarkan.svg",
+    gambar: "assets/img/artikel-eceng-gondok.svg",
     menit: 3,
     isi: `
 <p>Eceng gondok adalah tanaman air yang tumbuh sangat cepat di air yang kaya nutrien. Di beberapa teluk Danau Toba, hamparannya bisa menutupi permukaan air hingga perahu sulit lewat.</p>
@@ -185,7 +184,7 @@ JAGA.artikel = [
     kat: "Hayati",
     judul: "Ihan Batak, ikan yang kini dilindungi penuh",
     ringkas: "Dulu hadir di setiap pesta adat, kini makin sulit ditemukan. Mengenal ikan endemik Danau Toba dan sungai-sungai di sekitarnya.",
-    gambar: "assets/img/galeri-senja.svg",
+    gambar: "assets/img/artikel-ihan-batak.svg",
     menit: 3,
     isi: `
 <p>Ihan Batak (<em>Neolissochilus thienemanni</em>) adalah ikan endemik perairan Danau Toba dan sungai-sungai di sekitarnya. Dalam upacara adat Batak Toba, ikan ini biasa dimasak menjadi arsik, hidangan ikan berbumbu kuning dengan rempah andaliman.</p>
@@ -204,7 +203,7 @@ JAGA.artikel = [
     kat: "Panduan",
     judul: "Liburan nol sampah ke Samosir dalam lima kebiasaan",
     ringkas: "Tidak perlu peralatan mahal. Cukup lima kebiasaan kecil yang dimulai dari isi tasmu.",
-    gambar: "assets/img/galeri-tuktuk.svg",
+    gambar: "assets/img/artikel-nol-sampah.svg",
     menit: 4,
     isi: `
 <p>Di daerah wisata, sampah yang paling banyak ditemukan biasanya justru yang paling sederhana: botol air mineral, kantong kresek, bungkus mi instan, dan gelas plastik. Kabar baiknya, sebagian besar bisa dicegah sejak sebelum berangkat.</p>
@@ -228,7 +227,7 @@ JAGA.artikel = [
     kat: "Isu",
     judul: "Keramba jaring apung dan kejernihan air danau",
     ringkas: "Keramba memberi penghidupan bagi banyak keluarga, tetapi danau punya batas daya tampung. Di mana titik tengahnya?",
-    gambar: "assets/img/galeri-bakkara.svg",
+    gambar: "assets/img/artikel-keramba.svg",
     menit: 4,
     isi: `
 <p>Keramba jaring apung adalah kandang ikan berupa jaring yang digantung pada rangka terapung. Di Danau Toba, keramba banyak dipakai untuk membudidayakan ikan nila, baik oleh warga maupun perusahaan.</p>
@@ -246,7 +245,7 @@ JAGA.artikel = [
     kat: "Panduan",
     judul: "Berwisata di lereng kaldera saat musim kemarau",
     ringkas: "Lereng berumput di sekitar danau mudah terbakar saat kemarau. Satu puntung rokok bisa jadi awalnya.",
-    gambar: "assets/img/galeri-huta.svg",
+    gambar: "assets/img/artikel-kemarau.svg",
     menit: 3,
     isi: `
 <p>Banyak lereng di sekitar Danau Toba ditumbuhi rumput dan semak. Saat kemarau panjang, vegetasi ini mengering dan sangat mudah terbakar. Kebakaran di perbukitan sekitar danau beberapa kali terjadi dan harus dipadamkan bersama oleh petugas dan warga.</p>

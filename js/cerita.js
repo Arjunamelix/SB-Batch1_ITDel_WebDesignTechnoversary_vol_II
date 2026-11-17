@@ -39,7 +39,7 @@
     const [utama, ...lain] = hasil;
     elUtama.innerHTML = `
       <article class="artikel-utama">
-        <img src="${utama.gambar}" alt="" width="900" height="1100">
+        <img src="${utama.gambar}" alt="" width="1200" height="900">
         <div class="artikel-utama__teks">
           <div class="meta"><span class="tag-kat">${utama.kat}</span><span>${utama.menit} menit baca</span></div>
           <h2>${utama.judul}</h2>
@@ -49,7 +49,7 @@
       </article>`;
     elDaftar.innerHTML = lain.map((a) => `
       <li>
-        <div class="gambar"><img src="${a.gambar}" alt="" loading="lazy" width="900" height="1100"></div>
+        <div class="gambar"><img src="${a.gambar}" alt="" loading="lazy" width="1200" height="900"></div>
         <div class="meta"><span class="tag-kat">${a.kat}</span><span>${a.menit} menit baca</span></div>
         <h3><button type="button" data-baca="${a.id}">${a.judul}</button></h3>
         <p>${a.ringkas}</p>
