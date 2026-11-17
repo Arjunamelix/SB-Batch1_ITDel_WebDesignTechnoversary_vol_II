@@ -13,7 +13,7 @@ Latar belakang: status UNESCO Global Geopark Kaldera Toba sempat mendapat kartu 
 
 | Halaman | Isi & fitur |
 |---|---|
-| **Beranda** (`index.html`) | Panorama interaktif *Dijaga vs Dibiarkan*: geser garis untuk membandingkan masa depan danau. Lini masa status geopark, tiga ancaman lingkungan dan kebiasaan penangkalnya, serta sorotan geosite. |
+| **Beranda** (`index.html`) | Panorama interaktif *Dijaga vs Dibiarkan*: geser garis untuk membandingkan masa depan danau. Lini masa status geopark, simulasi *Danau ini mengikuti pilihanmu* (nyalakan empat kebiasaan dan lihat sampah, eceng gondok, asap, dan satwa berubah di ilustrasi), serta sorotan geosite. |
 | **Tentang** (`about.html`) | Misi Jaga Tao, diagram penampang kaldera (SVG), lima nilai istimewa Kaldera Toba, profil tim, dan sumber rujukan. |
 | **Jelajah** (`jelajah.html`) | Konten/galeri: peta geosite interaktif (filter Geologi/Hayati/Budaya, navigasi keyboard, tautan langsung `#id-geosite`) dengan tips menjaga di tiap lokasi, plus galeri ilustrasi dengan lightbox. |
 | **Cerita** (`cerita.html`) | Artikel: 6 artikel edukasi, pencarian, filter kategori, dan pembaca artikel dengan indikator progres. |
@@ -35,7 +35,7 @@ Tidak perlu instalasi atau proses *build*.
 **Cara 1: buka langsung**
 1. Unduh atau *clone* repository ini:
    ```bash
-   git clone https://github.com/<username>/webdesign_SB_Batch1_technoversary_vol.II.git
+   git clone https://github.com/Arjunamelix/webdesign_SB_Batch1_technoversary_vol.II.git
    ```
 2. Buka `index.html` di browser (Chrome, Edge, Firefox, atau Safari versi terbaru).
 

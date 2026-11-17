@@ -39,3 +39,36 @@
     requestAnimationFrame(langkah);
   }
 })();
+
+/* Beranda: simulasi "danau mengikuti pilihanmu". */
+(function () {
+  "use strict";
+  const svg = document.querySelector(".sim__svg");
+  if (!svg) return;
+  const saklar = [...document.querySelectorAll(".sim__saklar input")];
+  const titik = [...document.querySelectorAll(".sim__meter i")];
+  const judul = document.getElementById("sim-judul");
+  const ket = document.getElementById("sim-ket");
+  const ajakan = document.getElementById("sim-ajakan");
+  const TEKS = [
+    ["Danau yang dibiarkan", "Belum ada kebiasaan yang dinyalakan."],
+    ["Mulai membaik", "Satu kebiasaan sudah terasa. Tiga lagi."],
+    ["Setengah jalan", "Dua dari empat kebiasaan menyala."],
+    ["Hampir pulih", "Tinggal satu kebiasaan lagi."],
+    ["Toba yang terjaga", "Empat kebiasaan kecil, dikali seribu pengunjung."],
+  ];
+  function perbarui() {
+    let n = 0;
+    saklar.forEach((s) => {
+      svg.classList.toggle("ok-" + s.dataset.lapis, s.checked);
+      if (s.checked) n++;
+    });
+    titik.forEach((t, i) => t.classList.toggle("isi", i < n));
+    judul.textContent = TEKS[n][0];
+    ket.textContent = TEKS[n][1];
+    ajakan.hidden = n < saklar.length;
+  }
+  saklar.forEach((s) => s.addEventListener("change", perbarui));
+  perbarui();
+})();
+
