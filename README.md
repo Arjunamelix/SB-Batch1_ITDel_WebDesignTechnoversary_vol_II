@@ -1,6 +1,9 @@
 # Jaga Tao — Berwisata ke Danau Toba tanpa Meninggalkan Jejak
 
-Karya Tim **SB (Batch 1)** untuk **Lomba Web Design Techno Versary Vol. II** (HIMA-TI FKOM Universitas Kuningan), tema *EcoDigital For Environment*.
+**Live website:** https://arjunamelix.github.io/SB-Batch1_ITDel_WebDesignTechnoversary_vol_II/  
+**Repository:** https://github.com/Arjunamelix/SB-Batch1_ITDel_WebDesignTechnoversary_vol_II
+
+Karya Tim **SB (Batch 1)**, Institut Teknologi Del, untuk **Lomba Web Design Techno Versary Vol. II** (HIMA-TI FKOM Universitas Kuningan), tema *EcoDigital For Environment*.
 Sub-tema: **Konservasi Wisata Alam & Travel Destination Ramah Lingkungan**.
 
 ## Deskripsi website
@@ -35,13 +38,13 @@ Tidak perlu instalasi atau proses *build*.
 **Cara 1: buka langsung**
 1. Unduh atau *clone* repository ini:
    ```bash
-   git clone https://github.com/Arjunamelix/webdesign_SB_Batch1_technoversary_vol.II.git
+   git clone https://github.com/Arjunamelix/SB-Batch1_ITDel_WebDesignTechnoversary_vol_II.git
    ```
 2. Buka `index.html` di browser (Chrome, Edge, Firefox, atau Safari versi terbaru).
 
 **Cara 2: lewat server lokal (disarankan)**
 ```bash
-cd webdesign_SB_Batch1_technoversary_vol.II
+cd SB-Batch1_ITDel_WebDesignTechnoversary_vol_II
 python -m http.server 8000
 # lalu buka http://localhost:8000
 ```
@@ -53,7 +56,7 @@ Settings → Pages → Source: *Deploy from a branch* → pilih branch `main` da
 ## Struktur folder
 
 ```
-webdesign_SB_Batch1_technoversary_vol.II/
+SB-Batch1_ITDel_WebDesignTechnoversary_vol_II/
 ├── index.html          Beranda
 ├── about.html          Tentang
 ├── jelajah.html        Konten: peta geosite & galeri
@@ -80,6 +83,6 @@ webdesign_SB_Batch1_technoversary_vol.II/
 
 | Nama | Peran |
 |---|---|
-| Nama Anggota 1 | Ketua tim, pengembang front-end |
-| Nama Anggota 2 | Desain antarmuka & ilustrasi |
-| Nama Anggota 3 | Riset konten & penulisan |
+| Arjuna Melix Sihombing | Ketua tim, pengembang front-end |
+| Samuel Bona Tua Hutagaol | Desain antarmuka & ilustrasi |
+| Markus Yogo Septian Saragi | Riset konten & penulisan |
